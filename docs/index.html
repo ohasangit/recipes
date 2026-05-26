@@ -11,6 +11,20 @@
     embed { flex: 1; width: 100%; border: none; }
     .fallback { display: none; flex: 1; align-items: center; justify-content: center; flex-direction: column; gap: 12px; }
     embed:not([src]) ~ .fallback { display: flex; }
+    .mobile-fallback { display: none; flex: 1; align-items: center; justify-content: center; flex-direction: column; gap: 16px; }
+    .open-btn {
+      padding: 14px 28px;
+      background: #D9534F;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    @media (hover: none) and (pointer: coarse) {
+      embed { display: none; }
+      .mobile-fallback { display: flex; }
+    }
   </style>
 </head>
 <body>
@@ -20,5 +34,10 @@
     <p>Your browser cannot display the PDF inline.</p>
     <a href="main.pdf">Download the cookbook (PDF)</a>
   </div>
+  <div class="mobile-fallback">
+    <p>Tap below to open the cookbook in your PDF viewer.</p>
+    <a class="open-btn" href="main.pdf">Open Cookbook 📖</a>
+  </div>
 </body>
 </html>
+
