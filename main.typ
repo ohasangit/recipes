@@ -1,8 +1,8 @@
 #import "@preview/chef-cookbook:0.3.0": *
 
 #show: cookbook.with(
-  title: "Modern Kitchen",
-  author: "Gourmet Studio",
+  title: "Boltito Dogito Cookbook 🐾",
+  author: "Omar and Nadia (and Boltito)",
   accent-color: rgb("#D9534F"),
   lang: "en",
   // Default language, can be overridden here for the entire cookbook
