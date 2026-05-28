@@ -61,6 +61,38 @@
   notes: "For a vegan version, use coconut milk instead of heavy cream.",
 )
 
+|
+= Dessert
+
+#recipe(
+  "Pumpkin Pie",
+  description: [You will fall in love after taking one bite of this pie! This foolproof Pumpkin Pie recipe has a perfectly golden crust filled with a deliciously rich and creamy filling that will melt in your mouth.],
+  cuisine: "American",
+  tags: ("dessert", "pie", "pumpkin", "holiday"),
+  servings: "8 servings",
+  prep-time: "35 minutes",
+  cook-time: "55 minutes",
+  ingredients: (
+    (amount: "1", name: "(9-inch) homemade pie crust or store-bought*"),
+    (amount: "¾ cup", name: "packed light brown sugar (165g)"),
+    (amount: "½ tsp", name: "ground cinnamon"),
+    (amount: "½ tsp", name: "ground ginger"),
+    (amount: "¼ tsp", name: "ground nutmeg"),
+    (amount: "⅛ tsp", name: "cloves"),
+    (amount: "½ tsp", name: "salt"),
+    (amount: "1 can (15-ounce/425g)", name: "pumpkin puree"),
+    (amount: "1 can (12-ounce/354ml)", name: "evaporated milk"),
+    (amount: "3 large", name: "eggs, room temperature"),
+  ),
+  instructions: [
+    + If using a homemade pie crust, roll the pie crust to a 14-inch circle. Line a 9-inch pie dish with the pie dough and crimp edges. Chill the crust until ready to use (see notes about blind baking).
+    + Position an oven rack in the bottom third, and preheat the oven to 400°F (200°C).
+    + In a large mixing bowl, whisk together the sugar, spices, and salt. Add the pumpkin, milk, and eggs, and whisk until well combined. Pour into the pie shell. (You can brush the edges of the pie crust with an egg wash, if desired.)
+    + Bake for 15 minutes. Reduce the oven temperature to 350°F (175°C). Continue baking until the filling is puffed and jiggles slightly in the center when gently shaken, about 40 minutes. Remove from the oven and let cool completely on a wire rack. If making ahead, cover and refrigerate for up to 2 days before serving.
+  ],
+  notes: "*Original recipe: [preppykitchen.com](https://preppykitchen.com/pumpkin-pie-2/)*\n\n*If using a homemade pie dough, blind-bake the crust for an extra crispy shell. To blind bake, roll a disk of homemade dough into a 14-inch circle, line a 9-inch deep-dish pie pan, crimp the edges, and freeze the crust for 20 minutes. Line with parchment paper and fill with weights. Bake for 15 minutes at 425°F. Remove the parchment and weights, then add the filling and bake as directed.\n\nDecorate the pie! If you want, you can use extra pie dough or scraps to cut out leaves to decorate the top. Cut out the leaves, brush with egg wash, and bake them separately on a baking sheet at 400°F for about 10 to 15 minutes, or until golden brown and crispy. Place them on top of the cooled pie. You can also add sugared cranberries or homemade whipped cream!\n\nI updated this recipe to make the filling super easy. If you prefer the old method, you can follow these instructions: In a small pot, combine the pumpkin, sugar, cinnamon, ginger, nutmeg, cloves, and salt. Place over medium-low heat, and cook, frequently stirring, until hot and bubbling. Remove from the heat. Swap the evaporated milk for heavy cream and warm the cream in the microwave for about 90 seconds, just until steaming. Whisk the eggs in a medium bowl until lightly beaten, then whisk in the cream. Whisk the egg mixture into the pumpkin mixture until well combined. Pour into your frozen or blind-baked crust and bake as directed.\n\nNutrition: 226kcal per serving.",
+)
+
 = Mains
 
 #recipe(
