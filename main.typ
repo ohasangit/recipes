@@ -130,7 +130,7 @@
     "Marinate": [
       + Mix marinade ingrediants in bowl and whisk.
       + Coat the lamb thoroughly with the marinade. Place in a bag or covered dish and refrigerate for 8–24 hours.
-  #align(center, image(
+      #align(center, image(
         "assets/marinade.jpg",
         width: 120pt,
         height: 150pt,
@@ -158,6 +158,45 @@
     ],
   ),
 )
+
+#recipe(
+  "Mutton Pulao",
+  description: ["It's like Chicken, but better" - Boltito],
+  cuisine: "Pakistani",
+  tags: ("rice", "mutton", "pilaf", "comfort food"),
+  servings: "5 servings",
+  prep-time: "30m",
+  cook-time: "150m",
+  ingredients: (
+    (amount: "4 tbsp", name: "oil"),
+    (amount: "2 tbsp", name: "whole cumin seeds"),
+    (amount: "3", name: "onions sliced (not chopped)"),
+    (amount: "10 cloves", name: "garlic (whole, chopped or minced)"),
+    (amount: "2 tbsp", name: "ginger (minced)"),
+    (amount: "1.65 lb", name: "mutton (bone in)"),
+    (amount: "4 tsp", name: "salt (or to taste)"),
+    (amount: "3 cups", name: "white basmati rice (washed and soaked for 30 mins)"),
+    (amount: "4 cups/1l", name: "water (see notes for serving size adjustments)"),
+  ),
+  notes: [Whole spices to wrap in cloth (potli): 2.5 tbsp coriander seeds, 3 tbsp black peppercorns, 1 bay leaf, 10 green cardamoms, 2 black cardamoms, 0.5 star anise, 7 cloves, 1 stick cinnamon.],
+  instructions: [
+     + Heat the oil in a deep pot. Add the sliced onions and saute well, stirring often so the onions brown evenly.
+     + Once the onions are a deep golden brown, add the garlic, ginger, whole cumin seeds and mutton. Saute this well, stirring often and ensuring the mutton gets good contact with the base of the pot which will help it to brown well.
+     + Tie whole spices in cloth, and tie well (or simply add the spices directly). Add this to your pot, alongside the salt and 7 cups of water.
+     + Simmer on low and cover for 1hr 15mins. If mutton isn't fully cooked at this point, simmer for another 15 minutes, adding increments of 15 minutes until the mutton is cooked but not tender or breaking to the touch.
+     + Presoak rice for 30 minutes (careful not do soak for too long or it'll become mushy).
+     + When both lamb and presoaked rice are ready, add rice. Ensure water level is appropriate for amount of rice that needs to be cooked in the next step. Usually half the pot is enough.
+     + Cook on high, stirring the sides to ensure rice isn't sticking (avoid stirring the rice itself as to not break the grains).
+     + When the majority of water is gone and rice is still moist, turn to lowest heat, cover tightly and allow the rice to steam cook for 10-20 minutes
+     + Lift the lod and fluff up the rice using a slotted spoon or a fork. The helps prevent the rice from sticking or clumping, especially if you don't plan on serving immediately.
+  ],
+)
+
+// #recipe(
+//   "Ceviche (Pervuian)",
+//   image: image(),
+
+// )
 
 // Cookbook can be multilingual! Although the default language is English, you can specify a different language for blocks of recipes. You can either use built-in translations (currently supports German, Polish, French, Spanish, and Italian) or provide your own custom dictionary (see the 'custom-dicts' property above).
 
